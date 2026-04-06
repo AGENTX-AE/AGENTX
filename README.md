@@ -1,11 +1,11 @@
 # AgentX Simulator  
 *(Artifact for MICRO 2026 Review Only)*
 
-This repository contains the simulation code used in our ISCA 2026 submission on **using Hybrid Bonding (HB) + Near Data Processing (NDP)** to accelerate **LLM Agent** workloads.  
+This repository contains the simulation code used in our MICRO 2026 submission on **using Hybrid Bonding (HB) + Near Data Processing (NDP)** to accelerate **LLM Agent** workloads.  
 The code is a **research prototype** built on top of **Ramulator 2.0**, with custom support for **AgentX**.
 
 > ⚠️ **Usage & Distribution**
-> - This repository is provided **only for anonymous ISCA 2026 artifact evaluation**.
+> - This repository is provided **only for anonymous MICRO 2026 artifact evaluation**.
 > - It is intended **solely for reviewers of the corresponding paper**.
 > - Please **do not redistribute, fork, or publicly mirror** this code or derivative works.
 
@@ -89,7 +89,7 @@ From the AgentX directory, run:
 $ python main.py --dataset DATASET_NAME
 ```
 
-**DATASET_NAME** should follow the dataset naming used in the paper (i.e., the LLM Dataset evaluated in the ISCA submission).
+**DATASET_NAME** should follow the dataset naming used in the paper (i.e., the LLM Dataset evaluated in the MICRO submission).
 
 ### 3.5 Run AgentX Directly
 
