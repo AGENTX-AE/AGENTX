@@ -13,13 +13,12 @@ The code is a **research prototype** built on top of **Ramulator 2.0**, with cus
 
 ## 1. Project Overview
 
-- We model a **GPU / AgentX  system** for LLM Agent inference.
+- We model a **GPU / AgentX system** for LLM agent inference.
 - The simulator focuses on **NDP-style operations**, capturing:
   - LPDDR5 timing and command behavior,
   - and NDP command scheduling / trace flows.
-
-The top-level structure of this repository follows Ramulator 2.0’s layout, with our AgentX-specific modifications confined to the src directory and applied to a vanilla Ramulator 2.0 checkout via the set_AgentX.sh script.
-
+- The top-level structure of this repository follows Ramulator 2.0’s layout, with our AgentX-specific modifications confined to the `src` directory and applied to a vanilla Ramulator 2.0 checkout via the `set_AgentX.sh` script.
+- The `HOTSPOT` folder contains the configuration files used for **thermal analysis with HotSpot 7.0**. For detailed setup instructions and usage, please refer to the HotSpot documentation.
 ---
 
 ## 2. Dependencies
@@ -39,7 +38,7 @@ This artifact assumes the following software stack:
 ### 3.1. Clone the Github repository
 
 ```bash
-$ git clone https://github.com/AgentX-AE/AgentX-AE.git
+$ git clone https://github.com/AGENTX-AE/AGENTX-AE.git
 $ cd AgentX-AE
 $ git submodule update --init --recursive
 $ cd AgentX

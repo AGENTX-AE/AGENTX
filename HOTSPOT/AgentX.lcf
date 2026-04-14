@@ -1,0 +1,166 @@
+#Lines starting with # are used for commenting
+#Blank lines are also ignored
+
+#File Format:
+
+#<Layer Number>
+#<Lateral heat flow Y/N?>
+#<Power Dissipation Y/N?>
+#<Specific heat capacity in J/(m^3K)>
+#<Resistivity in (m-K)/W>
+#<Thickness in m>
+#<floorplan file>
+
+#Example
+
+#0
+#Y
+#Y
+#1.75e6
+#0.01
+#0.00015
+#ev6.flp.orig
+
+# Layer 0: Silicon
+0
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan1.flp
+
+# Layer 1: Silicon
+1
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan2.flp
+
+# Layer 2: Silicon
+2
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan3.flp
+
+# Layer 3: thermal interface material (TIM)
+3
+Y
+N
+4e6
+0.25
+2.0e-05
+floorplan3.flp
+
+# Layer 4: Silicon
+4
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan4.flp
+
+# Layer 5: Silicon
+5
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan5.flp
+
+# Layer 6: Silicon
+6
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan6.flp
+
+# Layer 7: thermal interface material (TIM)
+7
+Y
+N
+4e6
+0.25
+2.0e-05
+floorplan6.flp
+
+# Layer 8: Silicon
+8
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan7.flp
+
+# Layer 9: Silicon
+9
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan8.flp
+
+# Layer 10: Silicon
+10
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan9.flp
+
+# Layer 11: thermal interface material (TIM)
+11
+Y
+N
+4e6
+0.25
+2.0e-05
+floorplan9.flp
+
+# Layer 12: Silicon
+12
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan10.flp
+
+# Layer 13: Silicon
+13
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan11.flp
+
+# Layer 14: Silicon
+14
+Y
+Y
+1.75e6
+0.01
+5.0e-05
+floorplan12.flp
+
+# Layer 15: thermal interface material (TIM)
+15
+Y
+N
+4e6
+0.25
+2.0e-05
+floorplan12.flp
