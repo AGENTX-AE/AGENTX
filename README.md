@@ -38,7 +38,7 @@ This artifact assumes the following software stack:
 ### 3.1. Clone the Github repository
 
 ```bash
-$ git clone https://github.com/AGENTX-AE/AGENTX-AE.git
+$ git clone https://github.com/AGENTX-AE/AGENTX.git
 $ cd AgentX-AE
 $ git submodule update --init --recursive
 $ cd AgentX
