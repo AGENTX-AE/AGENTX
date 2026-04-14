@@ -92,7 +92,7 @@ $ python main.py --dataset DATASET_NAME
 
 ### 3.5 Run AgentX Directly
 
-After building the executable (Section 4.1) and generating the corresponding LLM inference traces by invoking gen_trace.py in src/, you can directly launch AgentX with its default configuration.
+After building the executable and generating the corresponding LLM inference traces by invoking gen_trace.py in src/, you can directly launch AgentX with its default configuration.
 
 From the AgentX directory, run:
 
