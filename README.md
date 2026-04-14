@@ -39,7 +39,7 @@ This artifact assumes the following software stack:
 
 ```bash
 $ git clone https://github.com/AGENTX-AE/AGENTX.git
-$ cd AgentX
+$ cd AGENTX
 $ git submodule update --init --recursive
 $ cd AgentX
 ```
