@@ -69,7 +69,7 @@ From the AgentX directory, run:
 $ cd src
 $ bash run_real_latency.sh qwen3-32b /data1/models/qwen3-32b 32B 0
 $ bash run_real_latency.sh qwen3-14b /data1/models/qwen3-14b 14B 0
-$ bash run_real_latency.sh qwen3-8b  /data1/models/qwen3-8b   8B  0
+$ bash run_real_latency.sh qwen3-8b  /data1/models/qwen3-8b   8B 0
 $ cd ..
 ```
 - first argument is the model name used in our configs (e.g., qwen3-32b).
