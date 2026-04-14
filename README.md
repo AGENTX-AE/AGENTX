@@ -1,4 +1,4 @@
-# AgentX Simulator  
+# AGENTX Simulator  
 *(Artifact for MICRO 2026 Review Only)*
 
 This repository contains the simulation code used in our MICRO 2026 submission on **using Hybrid Bonding (HB) + Near Data Processing (NDP)** to accelerate **LLM Agent** workloads.  
